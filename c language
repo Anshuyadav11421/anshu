@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main(){
+int a , b;
+a = 7;
+printf("I have a number in my mind.Can you guess it?\n");
+printf("Enter your Guess:");
+scanf("%d",&b);
+if(a==b){
+  printf("You are Right!");
+} else if(a>b){
+  printf("My number is greater than %d",b);
+} else{
+  printf("My number is smaller than %d",b);
+}
+     
+  return 0;
+}
